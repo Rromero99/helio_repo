@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome: Login Please</title>
+    <link rel="stylesheet" href="userlogin.css">
+</head>
+
+<body>
+
+    </form>   
+    <section class="container">
+        <div class="login">
+            <h3>Login </h3>
+            <form method="post" action="index.html">
+                <p>
+                    <input type="text" name="login" value="" placeholder="Username or Email" required>
+                </p>
+                <p>
+                    <input type="password" name="password" value="" placeholder="Password" required
+                    title="Must contain at least one number and one
+                    uppercase and lowercase letter, and at least 8 or more characters. Please Re-enter">
+                </p>
+                <p class="remember_me">
+                    <label>
+                        <input type="checkbox" name="remember_me" id="remember_me"> Remember me on this computer
+                    </label>
+                </p>
+                <p class="submit">
+                    <input type="submit" name="commit" value="Login">
+                </p>
+            </form>
+        </div>
+
+        <div class="login-help">
+            <p>Forgot your password?
+                <a href="index.html">Click here to reset it</a>.</p>
+        </div>
+    </section>
+
+    
+    <form method="post" action="index.html"></form>
+    <form>
+        <section class= "container">
+                <div class="Newuser">
+        <h4>Please fill out Information for New User</h4>
+        <p>
+            <label for="fn">First name </label>
+            <input type="text" min="1" max="15" id="fn" name="firstname" placeholder="Required">
+        </p>
+
+        <p>
+            <label for="ln">Last name </label>
+            <input type="text" min="1" max="15" id="fn" name="lastname" placeholder="Required">
+        </p>
+
+        <p>
+            <label for="tlf">Telephone </label>
+            <input type="number" id="tlf" name="telephone" pattern=[ \(]\d{3}[\)]\d{3}[\-]\d{4} placeholder="Required"
+            title= "Must be Numeric and contain 9 digits">
+        </p>
+        <p>
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Optional"
+            title= "Must be of E-mail type format">
+        </p>
+        <p>
+            <label for="a1">Age</label>
+            <input type="number" id="a1" name="age" pattern="\d+" placeholder="Optional"
+            title= "Must be Numeric">
+        </p>
+
+        <p>
+            <label for="pw">Password</label>
+            <input type="password" min="8" max="12" id="pw" name="password" placeholder="Enter Password - Required" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one number and one
+            uppercase and lowercase letter, and at least 8 or more characters. Please Re-enter">
+        </p>
+
+        <p>
+            <label for="cpw"> Please confirm new password</label>
+            <input type="password" min="1" max="12" id="cpw" name="cpassword" placeholder="Re-Enter Password - Required" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one number and one
+            uppercase and lowercase letter, and at least 8 or more characters">
+        </p>
+        <p class="submit">
+                <input type="submit" name="new" value="Submit">
+            </p>
+     <p class="reset">
+                <input type="reset" name="resetinfo" value="Clear All">
+            </p>
+                </div>
+    <section/>
+    </form>   
+</body>
+
+</html>
