@@ -1,0 +1,104 @@
+body {
+    font: 1em sans-serif;
+    padding: 0;
+    margin : 0;
+    background: burlywood
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0;
+    padding: 0 5px;
+
+  }
+  
+  p > label {
+    display: block;
+    font: 1em arial;
+    color:blue;
+  }
+    h4 {
+        font: 1.5em arial;
+        color:red;   
+    
+  }
+  
+  input[type=text],
+  input[type=email],
+  input[type=number],
+  input[type=password],
+  textarea,
+  
+  input:invalid {
+    box-shadow: 0 0 5px 1px blue;
+  }
+  
+  input:focus:invalid {
+    box-shadow: 0 0 5px 1px red;
+   
+
+}
+
+.container {
+  margin: 40px auto;
+  width: 640px;
+
+}
+
+
+.login {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    width: 310px;
+    background: white;
+    border-radius: 3px;
+} 
+
+.Newuser {
+    
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    width: 300px;
+    background: rgb(230, 230, 111);
+    border-radius: 3px;
+
+}
+
+.login-help {
+  margin: 20px 0;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px #2a85a1;
+}
+
+
+
+p { margin: 20px 0 0; }
+p:first-child { margin-top: 0; }
+
+input[type=text], input[type=password] { width: 278px; }
+
+p.remember_me {
+  float: left;
+  line-height: 31px;
+}
+  label {
+    font-size: 12px;
+    color: #777;
+    cursor: pointer;
+  }
+
+  input {
+    position: relative;
+    bottom: 1px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+
+p.submit { text-align: right; }
+p.reset  { text-align: right;
+          background: orangered; }
+
